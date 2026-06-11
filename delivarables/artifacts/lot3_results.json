@@ -1,0 +1,62 @@
+{
+  "ANN-TFIDF": {
+    "arch": "ANN",
+    "repr": "TF-IDF",
+    "val_f1": 0.7633,
+    "test_f1": 0.7407
+  },
+  "ANN-BERT": {
+    "arch": "ANN",
+    "repr": "BERT",
+    "val_f1": 0.7643,
+    "test_f1": 0.7308
+  },
+  "ANN-W2V": {
+    "arch": "ANN",
+    "repr": "Word2Vec",
+    "val_f1": 0.7161,
+    "test_f1": 0.7026
+  },
+  "CNN-W2V": {
+    "arch": "CNN",
+    "repr": "Word2Vec",
+    "val_f1": 0.7551,
+    "test_f1": 0.7318
+  },
+  "LSTM-W2V": {
+    "arch": "LSTM",
+    "repr": "Word2Vec",
+    "val_f1": 0.7581,
+    "test_f1": 0.7273
+  },
+  "Attn-W2V": {
+    "arch": "Attention",
+    "repr": "Word2Vec",
+    "val_f1": 0.7572,
+    "test_f1": 0.7342
+  },
+  "BERT-finetune": {
+    "arch": "Fine-tuning",
+    "repr": "BERT",
+    "val_f1": 0.7979,
+    "test_f1": 0.7616
+  },
+  "LogReg-TF-IDF": {
+    "arch": "LogReg",
+    "repr": "TF-IDF",
+    "val_f1": 0.757,
+    "test_f1": null
+  },
+  "LogReg-Word2Vec": {
+    "arch": "LogReg",
+    "repr": "Word2Vec",
+    "val_f1": 0.6755,
+    "test_f1": null
+  },
+  "LogReg-BERT": {
+    "arch": "LogReg",
+    "repr": "BERT",
+    "val_f1": 0.7513,
+    "test_f1": null
+  }
+}

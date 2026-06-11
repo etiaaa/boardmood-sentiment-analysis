@@ -1,0 +1,24 @@
+{
+  "label2id": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "id2label": {
+    "0": "negative",
+    "1": "neutral",
+    "2": "positive"
+  },
+  "class_weight": {
+    "negative": 0.532,
+    "neutral": 1.575,
+    "positive": 2.065
+  },
+  "random_state": 42,
+  "split": {
+    "train": 10248,
+    "val": 2196,
+    "test": 2196
+  },
+  "primary_metric": "f1_macro"
+}

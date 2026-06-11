@@ -1,0 +1,23 @@
+==================================================================
+  EXEMPLES DE TWEETS POUR LA DEMO — Sentiment des tweets aeriens
+  (en anglais : le modele est entraine sur des tweets anglais)
+==================================================================
+
+
+😠  NEGATIF
+@united worst airline ever, my flight was cancelled and no one helped me
+
+
+😊  POSITIF
+@VirginAmerica thank you so much, amazing crew and a great flight, I love flying with you
+
+
+😐  NEUTRE
+@AmericanAir what time does flight 123 board and which gate tomorrow morning?
+
+
+😏  BONUS — PIEGE IRONIQUE (pour impressionner le jury)
+@SouthwestAir oh great, another 4 hour delay, exactly what I wanted today. fantastic service as always
+
+  -> DistilBERT le classe NEGATIF (il comprend le sarcasme),
+     alors que LogReg / Attention se font avoir par "great / fantastic".

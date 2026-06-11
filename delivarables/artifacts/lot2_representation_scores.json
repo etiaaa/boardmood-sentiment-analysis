@@ -1,0 +1,14 @@
+{
+  "TF-IDF": {
+    "dim": 12309,
+    "f1_macro_val": 0.757
+  },
+  "Word2Vec": {
+    "dim": 100,
+    "f1_macro_val": 0.6755
+  },
+  "BERT": {
+    "dim": 768,
+    "f1_macro_val": 0.7513
+  }
+}
