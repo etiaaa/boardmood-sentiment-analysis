@@ -4,11 +4,17 @@
 Classification du sentiment (négatif / neutre / positif) de **14 640 tweets** adressés à 6 compagnies
 aériennes US, de la donnée brute au **modèle déployé**.
 
+📦 **Dépôt** : https://github.com/etiaaa/boardmood-sentiment-analysis
+
 ---
 
 ## Démarrage rapide
 
 ```bash
+# Cloner le projet
+git clone https://github.com/etiaaa/boardmood-sentiment-analysis.git
+cd boardmood-sentiment-analysis/delivarables
+
 pip install -r requirements.txt          # dépendances
 
 # Reproduire les lots (notebooks)
