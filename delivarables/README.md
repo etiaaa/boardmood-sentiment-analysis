@@ -1,5 +1,5 @@
-# Analyse de sentiment des tweets de compagnies aériennes
-### Projet NLP & Deep Learning — Master Data Science
+# ✈️ BoardMood — Analyse de sentiment des tweets de compagnies aériennes
+### Projet NLP & Deep Learning — Master Data Science · équipe **BoardMood**
 
 Classification du sentiment (négatif / neutre / positif) de **14 640 tweets** adressés à 6 compagnies
 aériennes US, de la donnée brute au **modèle déployé**.
@@ -60,7 +60,7 @@ delivarables/
 
 ---
 
-## 📊 Résultats (F1-macro, jeu de test)
+## Résultats (F1-macro, jeu de test)
 
 | Modèle | F1-macro | Note |
 |---|:--:|---|
